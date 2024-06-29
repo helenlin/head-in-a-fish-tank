@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url(https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+* {
+  cursor: url('../img/cursor.png'), auto; 
+}
+
+
+body {
+  background-image: url("./../img/bg.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-color: white;
+
+  border: 20px solid white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+p {
+  color: forestgreen;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.hidden {
+  opacity:0;
+}
+
+
+.img {
+  position: absolute;
+}
+
+
+.content-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  max-height: 500px;
+}
+
+
+.console-container {
+ 
+  font-family:'Lora', serif;
+  font-size:1em;
+  text-align:center;
+  vertical-align: center;
+  height:200px;
+  width:800px;
+  display:block;
+  position:absolute;
+  color:white;
+  top:100px;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+
+.console-underscore {
+  display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+#container{
+    position: absolute;
+    margin:auto;
+   background-color: transparent;
+   padding: 70px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+audio {
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    top: 25px;
+    left: 1000px;
+}
+
+
+img:hover {
+ cursor: url('../img/cursor-dk.png'), auto;
+}
