@@ -43,8 +43,8 @@ body {
   background-size: cover;
   background-repeat: repeat;
   background-color: white;
-
-  border: 20px solid white;
+/*
+  border: 20px solid white;*/
   position: absolute;
   top: 0;
   right: 0;
