@@ -32,11 +32,6 @@ footer, header, hgroup, menu, nav, section {
 }
 
 
-* {
-  cursor: url('../img/cursor.png'), auto; 
-}
-
-
 body {
   background-image: url("./../img/bg.jpeg");
   background-position: center;
