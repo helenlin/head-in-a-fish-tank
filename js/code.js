@@ -1,5 +1,3 @@
-document.body.style.cursor = 'url("img/cursor.png"), auto';
-
 document.addEventListener('DOMContentLoaded', function() {
   document.body.addEventListener('click', function() {
     console.log(document.body.style.cursor);
